@@ -16,7 +16,7 @@ Resources:
       MemorySize: 128
       Timeout: 3
       Handler: index.handler
-      Runtime: nodejs8.10
+      Runtime: nodejs22.x
       Architectures:
         - x86_64
       EphemeralStorage:
